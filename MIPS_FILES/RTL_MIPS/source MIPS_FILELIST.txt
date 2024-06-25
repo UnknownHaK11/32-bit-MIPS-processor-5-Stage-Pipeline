@@ -1,0 +1,266 @@
+source MIPS_FILELIST
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:21 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/Instmem.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module InstMem
+# 
+# Top level modules:
+# 	InstMem
+# End time: 11:37:21 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:21 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/IFetch.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IFETCH
+# 
+# Top level modules:
+# 	IFETCH
+# End time: 11:37:22 on Mar 11,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:22 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/IDecode.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IDecode
+# 
+# Top level modules:
+# 	IDecode
+# End time: 11:37:22 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:22 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/IControlUnit.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IControlUnit
+# 
+# Top level modules:
+# 	IControlUnit
+# End time: 11:37:22 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:22 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/IExecute.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IExecute
+# 
+# Top level modules:
+# 	IExecute
+# End time: 11:37:22 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:22 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/DataMem.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 11:37:22 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:22 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/DataMem256x32.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DataMem256x32
+# 
+# Top level modules:
+# 	DataMem256x32
+# End time: 11:37:22 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:22 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/IMux2x1.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IMux2x1
+# 
+# Top level modules:
+# 	IMux2x1
+# End time: 11:37:22 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:22 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/WriteReg1.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module WriteReg1
+# 
+# Top level modules:
+# 	WriteReg1
+# End time: 11:37:23 on Mar 11,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:23 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/WriteReg.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module WriteReg
+# 
+# Top level modules:
+# 	WriteReg
+# End time: 11:37:23 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:23 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/Top_Risc.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module Top_Risc
+# 
+# Top level modules:
+# 	Top_Risc
+# End time: 11:37:23 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:23 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/T_Top_Risc.v 
+# -- Compiling module T_Top_Risc
+# 
+# Top level modules:
+# 	T_Top_Risc
+# End time: 11:37:23 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim \+acc T_Top_Risc
+# ** Warning: (vsim-8690) Ignoring plusarg '+acc' with -novopt in effect.
+# vsim "+acc" T_Top_Risc 
+# Start time: 11:37:23 on Mar 11,2024
+# Loading work.T_Top_Risc
+# Loading work.Top_Risc
+# Loading work.InstMem
+# Loading work.IFETCH
+# Loading work.IMux2x1
+# Loading work.IControlUnit
+# Loading work.IDecode
+# Loading work.WriteReg
+# Loading work.IExecute
+# Loading work.DataMem
+# Loading work.DataMem256x32
+add wave  \
+sim:/T_Top_Risc/RISC/FETCHUNIT/Clock
+add wave  \
+sim:/T_Top_Risc/RISC/DECODE/Rt \
+sim:/T_Top_Risc/RISC/DECODE/Rs \
+sim:/T_Top_Risc/RISC/DECODE/Rd \
+sim:/T_Top_Risc/RISC/DECODE/IR3 \
+sim:/T_Top_Risc/RISC/DECODE/IR2 \
+sim:/T_Top_Risc/RISC/DECODE/IR1 \
+sim:/T_Top_Risc/RISC/DECODE/IR0
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: User  Hostname: SLYCON  ProcessID: 12864
+#           Attempting to use alternate WLF file "./wlftvyygvh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvyygvh
+source MIPS_FILELIST
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:04 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/Instmem.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module InstMem
+# 
+# Top level modules:
+# 	InstMem
+# End time: 11:38:04 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:04 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/IFetch.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IFETCH
+# 
+# Top level modules:
+# 	IFETCH
+# End time: 11:38:05 on Mar 11,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:05 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/IDecode.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IDecode
+# 
+# Top level modules:
+# 	IDecode
+# End time: 11:38:05 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:05 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/IControlUnit.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IControlUnit
+# 
+# Top level modules:
+# 	IControlUnit
+# End time: 11:38:05 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:05 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/IExecute.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IExecute
+# 
+# Top level modules:
+# 	IExecute
+# End time: 11:38:05 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:05 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/DataMem.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 11:38:05 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:05 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/DataMem256x32.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DataMem256x32
+# 
+# Top level modules:
+# 	DataMem256x32
+# End time: 11:38:05 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:05 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/IMux2x1.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IMux2x1
+# 
+# Top level modules:
+# 	IMux2x1
+# End time: 11:38:06 on Mar 11,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:06 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/WriteReg1.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module WriteReg1
+# 
+# Top level modules:
+# 	WriteReg1
+# End time: 11:38:06 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:06 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/WriteReg.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module WriteReg
+# 
+# Top level modules:
+# 	WriteReg
+# End time: 11:38:06 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:06 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/Top_Risc.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module Top_Risc
+# 
+# Top level modules:
+# 	Top_Risc
+# End time: 11:38:06 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:06 on Mar 11,2024
+# vlog -reportprogress 300 D:/Projects/MIPS_FILES/CODE_10JULY/T_Top_Risc.v 
+# -- Compiling module T_Top_Risc
+# 
+# Top level modules:
+# 	T_Top_Risc
+# End time: 11:38:06 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+log -r /*
+restart -f
+run -all
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.T_Top_Risc
+# Loading work.Top_Risc
+# Loading work.InstMem
+# Loading work.IFETCH
+# Loading work.IMux2x1
+# Loading work.IControlUnit
+# Loading work.IDecode
+# Loading work.WriteReg
+# Loading work.IExecute
+# Loading work.DataMem
+# Loading work.DataMem256x32
+# GetModuleFileName: The specified module could not be found.
+# 
+# 

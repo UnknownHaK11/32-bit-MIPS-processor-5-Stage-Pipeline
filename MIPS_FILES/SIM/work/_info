@@ -1,0 +1,479 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/global/DSPGROUP/s_gopikrishna/MIPS/SIM
+T_opt
+!s110 1474978670
+Vbc4aPjBT;ZRAA;h_WE<[@2
+04 10 4 work T_Top_Risc fast 0
+=1-b82a72d6f3b0-57ea636e-428bf-5833
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.3c;59
+R0
+vAsyn_ResetFF
+Z1 !s110 1493276084
+!i10b 1
+!s100 XBcbzm`[B6ilP]1c4ZHc@2
+IFcYj=GX3_AeE:jbACK0G:3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1187344762
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Asyn_ResetFF.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Asyn_ResetFF.v
+L0 2
+Z3 OE;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1493276084.324217
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/Asyn_ResetFF.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Asyn_ResetFF.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+Z4 o+no_notifier +nospecify +notimingchecks -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@asyn_@reset@f@f
+vcounter
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Fc=51ASoDdV<XVzP:96P@0
+IG1608]_Nz>E8OAKV?F99z1
+R0
+w1473934387
+8/global/DSPGROUP/s_gopikrishna/MIPS/SIM/counter.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/SIM/counter.v
+L0 1
+R3
+!s108 1474016018.153174
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/SIM/counter.v|
+!s90 -reportprogress|300|-work|work|/global/DSPGROUP/s_gopikrishna/MIPS/SIM/counter.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcounter_test
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 UNd;ZTcY^jb<nzz^^<9Ta2
+IbYHA;55IFQ`9:lWz3iQDQ3
+R0
+w1474000775
+8/global/DSPGROUP/s_gopikrishna/MIPS/SIM/counter_test.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/SIM/counter_test.v
+L0 1
+R3
+!s108 1475051351.290724
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/SIM/counter_test.v|
+!s90 -reportprogress|300|-work|work|/global/DSPGROUP/s_gopikrishna/MIPS/SIM/counter_test.v|
+!i113 0
+R5
+vDataMem
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 9g>5AZNCioSA4aMemUz1f1
+ILoe1;hIl;5XU2V>GVRBBM3
+R0
+w1488431990
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem.v
+L0 7
+R3
+!s108 1493276083.819555
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@data@mem
+vDataMem256x32
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 9eROU<fYf;k>Lh7KSS0Fa2
+I?jV@db6>QN^>c2Q1]?><c1
+R0
+w1481783699
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem256x32.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem256x32.v
+L0 56
+R3
+!s108 1493276083.883821
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem256x32.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem256x32.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@data@mem256x32
+vDG_sp256x128
+R1
+!i10b 1
+!s100 ABE:AKl?6e:O:6Q?kKF:Y3
+IK7hcaRZjzXB^:]cIm4H4o3
+R2
+R0
+w1188310395
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x128.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x128.v
+Z6 L0 53
+R3
+r1
+!s85 0
+31
+!s108 1493276084.476219
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x128.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x128.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@d@g_sp256x128
+vDG_sp256x20
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 T_K<gN4zWbC<]eV;OP>J:1
+IdAaUHHGflTlg2124GFQ<Q3
+R0
+w1188310534
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x20.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x20.v
+R6
+R3
+!s108 1493276084.713308
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x20.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x20.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@d@g_sp256x20
+vICache
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Y;a8F06zB72WTNzGY@=@L1
+IJ?JUD=AC8`oZ1OFhBF1T00
+R0
+w1482470889
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/ICache.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/ICache.v
+L0 3
+R3
+!s108 1493276083.985481
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/ICache.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/ICache.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@i@cache
+vIControlUnit
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Yom4WN0bV9ODFYm=m`bfE1
+IbVf[m<L?4L^ZVaK0@d`[?0
+R0
+w1487573499
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IControlUnit.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IControlUnit.v
+L0 21
+R3
+!s108 1493276083.632892
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IControlUnit.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IControlUnit.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@i@control@unit
+vIDecode
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 =2HdJn6dbZCNK`60CDzh52
+IGdL8`j4h8b`;Z=?6iEJU33
+R0
+w1493118028
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IDecode.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IDecode.v
+L0 31
+R3
+!s108 1493276083.530950
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IDecode.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IDecode.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@i@decode
+vIExecute
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;7NUd[3Lc1Z_1@^hj1:MS3
+I`>h0LW`6?k`^<9ZGF^>0S1
+R0
+w1493029642
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IExecute.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IExecute.v
+L0 69
+R3
+!s108 1493276083.729513
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IExecute.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IExecute.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@i@execute
+vIFETCH
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Q9R[kF=[Wjgjkzm`;E>`S2
+In8^=[b9:GH6AkF>Fl]RXd3
+R0
+w1483336839
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IFetch.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IFetch.v
+L0 48
+R3
+!s108 1493276083.431019
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IFetch.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IFetch.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@i@f@e@t@c@h
+vIMux2x1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 `:fozUFa[kWgFih846WEE2
+I3U[m65d>`VKmeQ3<3cJhg3
+R0
+w1480413285
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IMux2x1.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IMux2x1.v
+L0 1
+R3
+!s108 1493276084.123590
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IMux2x1.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IMux2x1.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@i@mux2x1
+vInstMem
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 IzEUYLd5TGB8:J4NRz=k<3
+ImAI3JJ^S=@YRmf@e:OP?g0
+R0
+w1493276058
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/InstMem_128.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/InstMem_128.v
+L0 6
+R3
+!s108 1493276083.331412
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/InstMem_128.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/InstMem_128.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@inst@mem
+vmod10
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 17X;ZKE47=BTU2PaAh=N[0
+IPAZ4NV>HV^gHmS>ceFz?g3
+R0
+w1474006648
+8/global/DSPGROUP/s_gopikrishna/MIPS/SIM/mod10.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/SIM/mod10.v
+L0 1
+R3
+!s108 1474006678.977544
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/SIM/mod10.v|
+!s90 -reportprogress|300|-work|work|/global/DSPGROUP/s_gopikrishna/MIPS/SIM/mod10.v|
+!i113 0
+R5
+vmod10_test
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 06b=XoHGeKKL:XkWk70F]2
+IM<FMZ<I[_XIZmOcQROEU>2
+R0
+w1474006002
+8/global/DSPGROUP/s_gopikrishna/MIPS/SIM/mod10_test.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/SIM/mod10_test.v
+L0 1
+R3
+!s108 1474006682.476855
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/SIM/mod10_test.v|
+!s90 -reportprogress|300|-work|work|/global/DSPGROUP/s_gopikrishna/MIPS/SIM/mod10_test.v|
+!i113 0
+R5
+vMux4to1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 13jz6jeQD^m<[M9P`M]Uo2
+I9=TR[38mCZUFiU00^:6aZ2
+R0
+w1476946791
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux4to1.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux4to1.v
+L0 4
+R3
+!s108 1493276084.055426
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux4to1.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux4to1.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@mux4to1
+vMux8to1
+!s110 1492758206
+!i10b 1
+!s100 o:6i9X^SJMZ?Y7cVPS3Tj2
+IYKVi1`dmggcdeV@L01Q2e0
+R2
+R0
+w1477308793
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux8to1.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux8to1.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1492758206.956098
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux8to1.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux8to1.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@mux8to1
+vRA1SH_HC_SP256x128
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Z=_ET>UI7:9acS[ima[N=1
+I^F>GYKKg^mIkaFG9`X`Cz1
+R0
+w1188475531
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/RA1SH_HC_SP256x128.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/RA1SH_HC_SP256x128.v
+L0 55
+R3
+!s108 1493276084.392857
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/RA1SH_HC_SP256x128.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/RA1SH_HC_SP256x128.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@r@a1@s@h_@h@c_@s@p256x128
+vT_Top_Risc
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?N?BEj3OgZP6fcd;7@Ai^2
+IC?>B95FX4U8LfTB2<oE8]3
+R0
+w1475054081
+8/global/DSPGROUP/s_gopikrishna/MIPS/SIM/T_Top_Risc.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/SIM/T_Top_Risc.v
+L0 7
+R3
+!s108 1493276084.868911
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/SIM/T_Top_Risc.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/SIM/T_Top_Risc.v|
+!i113 0
+o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@t_@top_@risc
+vTop_Risc
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 c76^RS>o965i1GRD>hAJX1
+I1Q;SkfdeC1R:MjUOkacXm2
+R0
+w1488431809
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Top_Risc_ICache.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Top_Risc_ICache.v
+L0 6
+R3
+!s108 1493276084.800271
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/Top_Risc_ICache.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Top_Risc_ICache.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@top_@risc
+vWriteReg
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 :3Zi9DjK>d]YN<7Izd9P=1
+IEMkg=5k`l??oT1:;>H]HG3
+R0
+w1184216627
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg.v
+L0 2
+R3
+!s108 1493276084.255898
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@write@reg
+vWriteReg1
+R1
+!i10b 1
+!s100 Cm5fR18K<4=be:kShMYCZ2
+ICGz1N<;ja4h?RW_:290GL1
+R2
+R0
+w1184216632
+8/global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg1.v
+F/global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg1.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1493276084.191031
+!s107 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg1.v|
+!s90 -reportprogress|300|/global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg1.v|+no_notifier|+nospecify|+notimingchecks|
+!i113 0
+R4
+n@write@reg1

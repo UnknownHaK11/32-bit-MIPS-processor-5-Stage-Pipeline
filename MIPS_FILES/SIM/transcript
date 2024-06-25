@@ -1,0 +1,453 @@
+# //  Questa Sim
+# //  Version 10.3c linux Jul 18 2014
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project eg
+source MIPS_FILELIST
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:47 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/InstMem_128.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module InstMem
+# 
+# Top level modules:
+# 	InstMem
+# End time: 12:17:47 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:47 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IFetch.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IFETCH
+# 
+# Top level modules:
+# 	IFETCH
+# End time: 12:17:47 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:47 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IDecode.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IDecode
+# 
+# Top level modules:
+# 	IDecode
+# End time: 12:17:47 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:47 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IControlUnit.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IControlUnit
+# 
+# Top level modules:
+# 	IControlUnit
+# End time: 12:17:47 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:47 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IExecute.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IExecute
+# 
+# Top level modules:
+# 	IExecute
+# End time: 12:17:47 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:47 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 12:17:47 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:47 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem256x32.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DataMem256x32
+# 
+# Top level modules:
+# 	DataMem256x32
+# End time: 12:17:48 on Apr 27,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:48 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/ICache.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module ICache
+# 
+# Top level modules:
+# 	ICache
+# End time: 12:17:48 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:48 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux4to1.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module Mux4to1
+# 
+# Top level modules:
+# 	Mux4to1
+# End time: 12:17:48 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:48 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IMux2x1.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IMux2x1
+# 
+# Top level modules:
+# 	IMux2x1
+# End time: 12:17:48 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:48 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg1.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module WriteReg1
+# 
+# Top level modules:
+# 	WriteReg1
+# End time: 12:17:48 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:48 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module WriteReg
+# 
+# Top level modules:
+# 	WriteReg
+# End time: 12:17:48 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:48 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/Asyn_ResetFF.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module Asyn_ResetFF
+# 
+# Top level modules:
+# 	Asyn_ResetFF
+# End time: 12:17:48 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:48 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/RA1SH_HC_SP256x128.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module RA1SH_HC_SP256x128
+# 
+# Top level modules:
+# 	RA1SH_HC_SP256x128
+# End time: 12:17:48 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:48 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x128.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DG_sp256x128
+# 
+# Top level modules:
+# 	DG_sp256x128
+# End time: 12:17:48 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:48 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x20.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DG_sp256x20
+# 
+# Top level modules:
+# 	DG_sp256x20
+# End time: 12:17:48 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:49 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/Top_Risc_ICache.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module Top_Risc
+# 
+# Top level modules:
+# 	Top_Risc
+# End time: 12:17:49 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:17:49 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/SIM/T_Top_Risc.v 
+# -- Compiling module T_Top_Risc
+# 
+# Top level modules:
+# 	T_Top_Risc
+# End time: 12:17:49 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -novopt T_Top_Risc
+# vsim 
+# Start time: 12:18:09 on Apr 27,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.T_Top_Risc
+# Loading work.T_Top_Risc
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.Top_Risc
+# Loading work.Top_Risc
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.InstMem
+# Loading work.InstMem
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.ICache
+# Loading work.ICache
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.Mux4to1
+# Loading work.Mux4to1
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.IMux2x1
+# Loading work.IMux2x1
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.RA1SH_HC_SP256x128
+# Loading work.RA1SH_HC_SP256x128
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.DG_sp256x20
+# Loading work.DG_sp256x20
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.IFETCH
+# Loading work.IFETCH
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.IControlUnit
+# Loading work.IControlUnit
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.IDecode
+# Loading work.IDecode
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.WriteReg
+# Loading work.WriteReg
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.IExecute
+# Loading work.IExecute
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.DataMem
+# Loading work.DataMem
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.DataMem256x32
+# Loading work.DataMem256x32
+add wave  \
+sim:/T_Top_Risc/RISC/FETCHUNIT/Clock
+add wave  \
+sim:/T_Top_Risc/RISC/DECODE/Rt \
+sim:/T_Top_Risc/RISC/DECODE/Rs \
+sim:/T_Top_Risc/RISC/DECODE/Rd \
+sim:/T_Top_Risc/RISC/DECODE/IR3 \
+sim:/T_Top_Risc/RISC/DECODE/IR2 \
+sim:/T_Top_Risc/RISC/DECODE/IR1 \
+sim:/T_Top_Risc/RISC/DECODE/IR0
+add wave  \
+sim:/T_Top_Risc/RISC/EXECUTE/result \
+sim:/T_Top_Risc/RISC/EXECUTE/ALU_Input2 \
+sim:/T_Top_Risc/RISC/EXECUTE/ALU_Input1_Forward_EX
+add wave  \
+sim:/T_Top_Risc/RISC/DATAMEM/QA \
+sim:/T_Top_Risc/RISC/DATAMEM/Mem_Store \
+sim:/T_Top_Risc/RISC/DATAMEM/MemOut
+add wave  \
+sim:/T_Top_Risc/RISC/DATAMEM/result
+source MIPS_FILELIST
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:43 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/InstMem_128.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module InstMem
+# 
+# Top level modules:
+# 	InstMem
+# End time: 12:24:43 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:43 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IFetch.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IFETCH
+# 
+# Top level modules:
+# 	IFETCH
+# End time: 12:24:43 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:43 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IDecode.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IDecode
+# 
+# Top level modules:
+# 	IDecode
+# End time: 12:24:43 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:43 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IControlUnit.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IControlUnit
+# 
+# Top level modules:
+# 	IControlUnit
+# End time: 12:24:43 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:43 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IExecute.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IExecute
+# 
+# Top level modules:
+# 	IExecute
+# End time: 12:24:43 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:43 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 12:24:43 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:43 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem256x32.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DataMem256x32
+# 
+# Top level modules:
+# 	DataMem256x32
+# End time: 12:24:43 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:43 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/ICache.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module ICache
+# 
+# Top level modules:
+# 	ICache
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:44 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux4to1.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module Mux4to1
+# 
+# Top level modules:
+# 	Mux4to1
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:44 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/IMux2x1.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module IMux2x1
+# 
+# Top level modules:
+# 	IMux2x1
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:44 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg1.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module WriteReg1
+# 
+# Top level modules:
+# 	WriteReg1
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:44 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module WriteReg
+# 
+# Top level modules:
+# 	WriteReg
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:44 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/Asyn_ResetFF.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module Asyn_ResetFF
+# 
+# Top level modules:
+# 	Asyn_ResetFF
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:44 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/RA1SH_HC_SP256x128.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module RA1SH_HC_SP256x128
+# 
+# Top level modules:
+# 	RA1SH_HC_SP256x128
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:44 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x128.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DG_sp256x128
+# 
+# Top level modules:
+# 	DG_sp256x128
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:44 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x20.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module DG_sp256x20
+# 
+# Top level modules:
+# 	DG_sp256x20
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:44 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/CODE/Top_Risc_ICache.v "+no_notifier" "+nospecify" "+notimingchecks" 
+# -- Compiling module Top_Risc
+# 
+# Top level modules:
+# 	Top_Risc
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 12:24:44 on Apr 27,2017
+# vlog -reportprogress 300 /global/DSPGROUP/s_gopikrishna/MIPS/SIM/T_Top_Risc.v 
+# -- Compiling module T_Top_Risc
+# 
+# Top level modules:
+# 	T_Top_Risc
+# End time: 12:24:44 on Apr 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+log -r /*
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.T_Top_Risc
+# Loading work.T_Top_Risc
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.Top_Risc
+# Loading work.Top_Risc
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.InstMem
+# Loading work.InstMem
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.ICache
+# Loading work.ICache
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.Mux4to1
+# Loading work.Mux4to1
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.IMux2x1
+# Loading work.IMux2x1
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.RA1SH_HC_SP256x128
+# Loading work.RA1SH_HC_SP256x128
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.DG_sp256x20
+# Loading work.DG_sp256x20
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.IFETCH
+# Loading work.IFETCH
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.IControlUnit
+# Loading work.IControlUnit
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.IDecode
+# Loading work.IDecode
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.WriteReg
+# Loading work.WriteReg
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.IExecute
+# Loading work.IExecute
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.DataMem
+# Loading work.DataMem
+# Refreshing /global/DSPGROUP/s_gopikrishna/MIPS/SIM/work.DataMem256x32
+# Loading work.DataMem256x32
+run -all
+# End time: 12:32:52 on Apr 27,2017, Elapsed time: 0:14:43
+# Errors: 0, Warnings: 2
+source MIPS_FILELIST
+vsim \+acc T_Top_Risc
+add wave  \
+sim:/T_Top_Risc/RISC/FETCHUNIT/Clock
+add wave  \
+sim:/T_Top_Risc/RISC/DECODE/Rt \
+sim:/T_Top_Risc/RISC/DECODE/Rs \
+sim:/T_Top_Risc/RISC/DECODE/Rd \
+sim:/T_Top_Risc/RISC/DECODE/IR3 \
+sim:/T_Top_Risc/RISC/DECODE/IR2 \
+sim:/T_Top_Risc/RISC/DECODE/IR1 \
+sim:/T_Top_Risc/RISC/DECODE/IR0
+add wave  \
+sim:/T_Top_Risc/RISC/EXECUTE/result \
+sim:/T_Top_Risc/RISC/EXECUTE/ALU_Input2 \
+sim:/T_Top_Risc/RISC/EXECUTE/ALU_Input1_Forward_EX
+add wave  \
+sim:/T_Top_Risc/RISC/DATAMEM/QA \
+sim:/T_Top_Risc/RISC/DATAMEM/Mem_Store \
+sim:/T_Top_Risc/RISC/DATAMEM/MemOut
+add wave  \
+sim:/T_Top_Risc/RISC/DATAMEM/WRBACK_Reg
+source MIPS_FILELIST
+log -r /*
+restart -f
+run -all

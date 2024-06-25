@@ -1,0 +1,8 @@
+/global/DSPGROUP/s_gopikrishna/MIPS/SIM/counter.v {1 {vlog -work work -vopt -stats=none /global/DSPGROUP/s_gopikrishna/MIPS/SIM/counter.v
+QuestaSim vlog 10.3c Compiler 2014.07 Jul 18 2014
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}}

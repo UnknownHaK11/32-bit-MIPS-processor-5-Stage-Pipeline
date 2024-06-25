@@ -1,0 +1,50 @@
+# Current time Wed Sep 28 10:01:14 2016
+# QuestaSim Stack Trace
+# Program = vish
+# Id = "10.3c"
+# Version = "2014.07"
+# Date = "Jul 18 2014"
+# Platform = linux
+# 0    0x00369cf8: 'free + 0x38' in '/lib/libc.so.6'
+# 1    0xf67d6bae: 'NlvFree + 0x1e' in '/global/apps/questasim_10.3c/questasim/linux/nlviewST.so'
+# 2    0xf663e906: 'NlvDStringFree + 0x26' in '/global/apps/questasim_10.3c/questasim/linux/nlviewST.so'
+# 3    0xf663be4d: '_ZN12NlvTclStringlsERS_ + 0x1d' in '/global/apps/questasim_10.3c/questasim/linux/nlviewST.so'
+# 4    0xf664a4d2: '_ZN10NlvCommand5leaveEv + 0x122' in '/global/apps/questasim_10.3c/questasim/linux/nlviewST.so'
+# 5    0xf6641dda: 'NlvCore_mouse_release + 0x7a' in '/global/apps/questasim_10.3c/questasim/linux/nlviewST.so'
+# 6    0xf67d8004: 'wEventProc + 0x214' in '/global/apps/questasim_10.3c/questasim/linux/nlviewST.so'
+# 7    0x083f2361: 'Tk_HandleEvent + 0x3a1' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 8    0x083f2896: '<unknown (@0x83f2896)>'
+# 9    0x0854b913: 'Tcl_ServiceEvent + 0x73' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 10   0x0854bba9: 'Tcl_DoOneEvent + 0x69' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 11   0x083f2ecf: 'Tk_MainLoop + 0x1f' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 12   0x083fb7e4: 'Tk_MainEx + 0x374' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 13   0x081db0e2: 'vish_inner_loop + 0x112' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 14   0x081dc1f6: 'main + 0x10d6' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 15   0x0030ad21: '__libc_start_main + 0xe1' in '/lib/libc.so.6'
+# 16   0x080dad7c: '<unknown (@0x80dad7c)>'
+# End of Stack Trace
+
+# Current time Wed Sep 28 11:19:08 2016
+# QuestaSim Stack Trace
+# Program = vish
+# Id = "10.3c"
+# Version = "2014.07"
+# Date = "Jul 18 2014"
+# Platform = linux
+# 0    0x081efaba: 'tree_destroy + 0xa' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 1    0x081f90d3: '<unknown (@0x81f90d3)>'
+# 2    0x081f93b0: 'treew_TreeCmd + 0x2a0' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 3    0x084c7c41: 'TclInvokeStringCommand + 0x71' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 4    0x084cc75d: '<unknown (@0x84cc75d)>'
+# 5    0x084ce216: '<unknown (@0x84ce216)>'
+# 6    0x084ce805: 'Tcl_EvalEx + 0x35' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 7    0x084cec6c: 'TclEvalObjEx + 0x3fc' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 8    0x084d5cd2: '<unknown (@0x84d5cd2)>'
+# 9    0x084cc75d: '<unknown (@0x84cc75d)>'
+# 10   0x0851537a: '<unknown (@0x851537a)>'
+# 11   0x0851dd1c: '<unknown (@0x851dd1c)>'
+# 12   0x084ce8dc: 'TclEvalObjEx + 0x6c' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 13   0x084ced76: 'Tcl_EvalObjEx + 0x36' in '/global/apps/questasim_10.3c/questasim/linux/vish'
+# 14   0xf7a3d756: 'Itk_ArchCompAddCmd + 0x336' in '/global/apps/questasim_10.3c/questasim/bin/../linux/itk3.4/libitk3.4.so'
+# 15   0x08c78edf: '<unknown (@0x8c78edf)>'
+# 16   0x08c79dd7: '<unknown (@0x8c79dd7)>'

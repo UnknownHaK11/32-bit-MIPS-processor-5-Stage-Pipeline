@@ -1,0 +1,283 @@
+///////----------TopSheet of the MiniRisc Core------------//////
+///////-----Instantiates All Modules of the processor-----//////
+
+
+
+module   Top_Risc 
+                  ( 
+                   ///OUTPUTS 
+
+                   Instruction_Out, 
+
+
+                   ///INPUTS  
+
+                   Clock, 
+                   Reset_ 
+                  );
+
+
+
+parameter PCWIDTH =8; 
+parameter DATAWIDTH =32; 
+
+input Reset_,Clock;
+output[31:0] Instruction_Out;
+
+
+wire [31:0]Instruction_Out;
+wire MemWen,MemCen;
+reg [31:0] ALU_Result_reg;
+reg [31:0] ALUResult;
+reg [31:0] Write_Back_Reg;
+reg [31:0] Write_Back;
+wire [31:0]IR1;
+
+
+wire [31:0]IR0;
+wire [31:0]MemOut;
+wire [PCWIDTH - 1: 0] PC_Out_Mem;
+wire [PCWIDTH - 1: 0] PC_plus_4_ID;
+wire [PCWIDTH - 1: 0] PC_plus_4_Out;
+wire [7:0]  Branch_Addr_EX,PC_Plus_4;
+wire [DATAWIDTH-1:0]  IR2;
+wire [4:0]  WriteAddr_EX;
+wire [PCWIDTH - 4 :0] Rs_ID,Rt_ID,Rd_ID,Shift_ID,WriteAddr_WB;
+wire [DATAWIDTH-1:0]  ALU_Result_Mem;
+wire [DATAWIDTH-1:0]  WRBACK_Reg,Sign_Ext_Out_Reg,Read_reg_Out1,Read_reg_Out2;
+wire [DATAWIDTH-17:0] Immediate_ID;
+wire [DATAWIDTH-1:0] ALU_Result,Mem_Store_EX,result;
+wire DepRes_Rs_Sel,DepRes_Rt_Sel;
+wire DepRes_Rs_Sel_WB,DepRes_Rt_Sel_WB;
+/////////TopSheet Output Signals//////////
+
+
+assign Instruction_Out = IR0;
+
+
+///////---------------WRITE BACK STAGE OF THE PROCESSOR---------------------///////
+
+always@(posedge Clock)
+if(Reset_ == 1'b0)
+            begin
+            ALU_Result_reg <= 32'b0;
+            end
+else
+            begin
+            ALU_Result_reg <=  ALUResult;
+            end
+
+
+always@(posedge Clock)
+if(Reset_)
+            Write_Back_Reg  <= 32'b0;
+else
+            Write_Back_Reg <= Write_Back ;
+
+
+
+
+
+InstMem          INSTMEM
+                       ( 
+                        /////OUTPUTS   
+                       .IR0		(IR0), 
+         
+                        ////INPUTS 
+
+                       .PC_Out_Mem		(PC_Out_Mem),
+                       .Clock			(Clock),
+                       .Reset_			(Reset_)
+                       ); 
+
+
+
+
+
+
+
+IFETCH           FETCHUNIT
+                       ( 
+                       ///Outputs
+      
+                       .PC_plus_4_Out		(PC_plus_4_Out),  //LSB VALUE OF THE PROGRAM COUNTER 
+                       .PC_Out_Mem		(PC_Out_Mem),
+      
+                       //Inputs 
+      
+                       .Branch_Addr_EX		(Branch_Addr_EX),   //EFFECTIVE BRANCH ADDRESS 
+                       .Branch_EX		(Branch_EX), 
+                       .Clock			(Clock),
+                       .Reset_			(Reset_)
+                       );   
+
+
+
+
+
+
+IControlUnit     CONTROL
+
+                      ( 
+
+                       ///INPUT//// 
+
+                      .Opcode			(IR0),
+
+                       ///OUTPUT CONTROLS FOR DIFFERENT FORMAT INSTRUCTIONS///// 
+
+                      .IR1			(IR1),//Registered output of OPCODE FROM DECODE/CONTROL UNIT
+                      .Byte_reg			(Byte_reg),
+                      .ByteU_reg		(ByteU_reg),
+                      .HalfWord_reg		(HalfWord_reg),
+                      .Word_reg			(Word_reg),
+                      .StoreByte_reg		(StoreByte_reg),
+                      .StoreWord_reg		(StoreWord_reg),
+                      .StoreHalfWord_reg	(StoreHalfWord_reg),
+                      .MemWrite_reg		(MemWrite_reg), 
+                      .MemRead_reg		(MemRead_reg), 
+                      .RegDst_reg		(RegDst_reg), 
+                      .MemtoReg_reg		(MemtoReg_reg), 
+                      .RegWrite_reg		(RegWrite_reg),
+                      .ALUSrc_reg		(ALUSrc),
+                      .Clock			(Clock),
+                      .Reset_			(Reset_)
+                       ); 
+
+
+
+
+
+IDecode           DECODE   
+                        
+                     ( 
+                       ////INPUTS   THIS MODULE ALSO CONTAINS THE REGFILE   ////////
+
+                      .IR0		       (IR0),
+                      .IR1         	       (IR1),
+                      .ALUResult	       (ALU_Result_Mem),
+                      .WRBack_Data	       (MemOut),
+                      .MemtoReg		       (MemtoReg_EX),
+                      .RegFileWr	       (RegWrite_Mem),
+                      .Clock		       (Clock),
+                      .Reset_		       (Reset_),
+                      .PC_plus_4	       (PC_Out_Mem),
+                      .WriteAddr_WB	       (WriteAddr_EX),
+
+                       ////OUTPUTS
+                      .DepRes_Rt_Sel_EX         (DepRes_Rt_Sel_EX),
+                      .DepRes_Rs_Sel_EX         (DepRes_Rs_Sel_EX),
+                      .DepRes_Rt_Sel            (DepRes_Rt_Sel),
+                      .DepRes_Rs_Sel            (DepRes_Rs_Sel),
+                      .DepRes_Rt_LdSt_EX        (DepRes_Rt_LdSt_EX), 
+                      .PC_plus_4_ID		(PC_plus_4_ID),
+                      .Rs_ID			(Rs_ID),
+                      .Rt_ID			(Rt_ID),
+                      .Rd_ID			(Rd_ID),
+                      .Immediate_ID		(Immediate_ID),
+                      .Shift_ID			(Shift_ID),
+                      .Sign_Ext_Out_Reg		(Sign_Ext_Out_Reg),
+                      .Read_reg_Out1		(Read_reg_Out1),
+                      .Read_reg_Out2		(Read_reg_Out2)
+
+                    ); 
+
+
+
+
+
+
+
+IExecute           EXECUTE
+                     ( 
+                       ///INPUTS
+                      .DepRes_Rt_Sel_EX         (DepRes_Rt_Sel_EX),
+                      .DepRes_Rs_Sel_EX         (DepRes_Rs_Sel_EX),
+                      .DepRes_Rt_Sel            (DepRes_Rt_Sel),
+                      .DepRes_Rs_Sel            (DepRes_Rs_Sel),
+                      .DepRes_Rt_LdSt_EX        (DepRes_Rt_LdSt_EX), 
+                      .ALU_Result_Mem           (ALU_Result_Mem),
+                      .ALU_Input1		(Read_reg_Out1),
+                      .Read_data_2		(Read_reg_Out2),
+                      .Sign_Extend		(Sign_Ext_Out_Reg),
+                      .MemOut                   (MemOut),
+                      .opcode			(IR1[31:26]),   //MSB 6 Bits of Inst for comparison
+                      .Rs_EX			(Rs_ID), //Address rt of contents2
+                      .Rt_EX			(Rt_ID), //Address rt of contents2
+                      .Rd_EX			(Rd_ID), //Address rd of destination register                 
+                      .Immediate		(Immediate_ID),  //Immediate field  Imm
+                      .Shift			(Shift_ID),                //Shift value
+                      .Function_opcode		(IR1[5:0]),
+                      .Byte_reg			(Byte_reg),
+                      .ByteU_reg		(ByteU_reg),
+                      .HalfWord_reg		(HalfWord_reg),
+                      .Word_reg			(Word_reg),
+                      .StoreByte_reg		(StoreByte_reg),
+                      .StoreWord_reg		(StoreWord_reg),
+                      .StoreHalfWord_reg	(StoreHalfWord_reg),
+                      .MemWrite_reg		(MemWrite_reg), 
+                      .MemRead_reg		(MemRead_reg), 
+                      .MemtoReg_reg		(MemtoReg_reg),
+                      .RegWrite_reg		(RegWrite_reg),
+                      .RegDst_EX		(RegDst_reg),
+                      .ALUSrc			(ALUSrc),
+                      .PC_plus_4_ID		(PC_plus_4_ID),
+                      .Clock			(Clock),
+                      .Reset_			(Reset_),
+       
+       
+                       ///OUTPUTS
+
+                      .Byte_EX			(Byte_EX),
+                      .ByteU_EX			(ByteU_EX) ,
+                      .HalfWord_EX		(HalfWord_EX) ,
+                      .Word_EX			(Word_EX) ,
+                      .MemWrite_EX		(MemWrite_EX) , 
+                      .MemRead_EX		(MemRead_EX), 
+                      .MemtoReg_EX		(MemtoReg_EX),
+                      .Branch_EX		(Branch_EX),
+                      .RegWrite_EX		(RegWrite_EX),
+                      .result		        (result),
+                      .ALU_Result		(ALU_Result),
+                      .Branch_Addr_EX		(Branch_Addr_EX), 
+                      .WriteAddr_EX		(WriteAddr_EX),
+                      .Mem_Store_EX		(Mem_Store_EX) 
+                      ); 
+
+
+
+
+
+
+DataMem              DATAMEM
+                      ( 
+                       /////INPUTS
+
+                      .Byte_EX			(Byte_EX),
+                      .ByteU_EX			(ByteU_EX) ,
+                      .HalfWord_EX		(HalfWord_EX) ,
+                      .Word_EX			(Word_EX) ,
+                      .MemWrite_EX		(MemWrite_EX) , 
+                      .MemRead_EX		(MemRead_EX), 
+                      .MemtoReg_EX		(MemtoReg_EX),
+                      .ALU_Result		(ALU_Result),
+                      .WriteAddr_EX		(WriteAddr_EX),
+                      .RegWrite_EX		(RegWrite_EX),
+                      .Mem_Store		(Mem_Store_EX), 
+                      .Clock                    (Clock),
+                      .Reset_                   (Reset_),
+
+                       //////OUTPUTS
+
+                      .WriteAddr_WB             (WriteAddr_WB),
+                      .MemtoReg_ID              (MemtoReg_ID),
+                      .MemOut                   (MemOut),
+                      .WRBACK_Reg               (WRBACK_Reg),  ////Output of data Mem
+                      .RegWrite_Mem             (RegWrite_Mem),
+                      .ALU_Result_Mem           (ALU_Result_Mem)
+                      ); 
+
+
+
+
+endmodule

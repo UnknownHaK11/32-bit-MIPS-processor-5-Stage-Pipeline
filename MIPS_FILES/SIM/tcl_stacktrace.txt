@@ -1,0 +1,57 @@
+Wed Sep 28 10:01:44 IST 2016
+Trace back: invalid command name ".main_pane.dataflow.interior.cs.body.pw.df.c"
+    while executing
+"$nl inoutsOfInst $inst"
+    (procedure "df_showNetsOfInstInWave" line 25)
+    invoked from within
+"df_showNetsOfInstInWave $nl [list $env]"
+    (procedure "df_select_env" line 74)
+    invoked from within
+"df_select_env $itk_interior $itk_option(-selequivnets)"
+    (method "::vsimwidgets::Dataflow::_bind_callback" body line 50)
+    invoked from within
+"::.main_pane.dataflow.interior.cs.body.pw.df.c _bind_callback click-1 769 329 769 329"
+    (in namespace inscope "::vsimwidgets::Dataflow" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Dataflow {::.main_pane.dataflow.interior.cs.body.pw.df.c _bind_callback click-1 769 329 769 329}"
+  <2:/global/apps/questasim_10.3c/questasim/linux/tk8.5/bgerror.tcl:92: ::tkerror {invalid command name ".main_pane.dataflow.interior.cs.body.pw.df.c"}
+  <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ".main_pane.dataflow.interior.cs.body.pw.df.c"}
+Wed Sep 28 10:28:03 IST 2016
+Trace back: positioncursor: invalid expanded time value: 4294967286
+    while executing
+"Wave::PositionCursor $winname 0 $Now $vsimPriv(Iteration)"
+    (procedure "Wave::UpdateEndOfTimeCursor" line 6)
+    invoked from within
+"Wave::UpdateEndOfTimeCursor .main_pane.wave.interior.cs.body.pw.wf"
+    ("after" script)
+  <2:/global/apps/questasim_10.3c/questasim/linux/tk8.5/bgerror.tcl:92: ::tkerror {positioncursor: invalid expanded time value: 4294967286}
+  <1:proc:192: ::tk::dialog::error::bgerror {positioncursor: invalid expanded time value: 4294967286}
+Wed Sep 28 10:29:30 IST 2016
+Trace back: positioncursor: invalid expanded time value: 4294967285
+    while executing
+"Wave::PositionCursor $winname 0 $Now $vsimPriv(Iteration)"
+    (procedure "Wave::UpdateEndOfTimeCursor" line 6)
+    invoked from within
+"Wave::UpdateEndOfTimeCursor .main_pane.dataflow.interior.cs.body.pw.wf.top"
+    ("after" script)
+  <2:/global/apps/questasim_10.3c/questasim/linux/tk8.5/bgerror.tcl:92: ::tkerror {positioncursor: invalid expanded time value: 4294967285}
+  <1:eval:1: ::tk::dialog::error::bgerror {positioncursor: invalid expanded time value: 4294967285}
+Wed Sep 28 12:19:46 IST 2016
+Trace back: window name "source2" already exists in parent
+    while executing
+"frame [GetActiveWindowFooter].$name"
+    (procedure "Console::CreateWindowFooter" line 3)
+    invoked from within
+"Console::CreateWindowFooter [$frame_name cget -windowname]"
+    (object "::.main_pane.source2" method "::mtiwidgets::WindowObj::Activate" body line 24)
+    invoked from within
+"$windowobj Activate """
+    (object "::.vcop" method "::vsimwidgets::Vcop::ActualActivate" body line 36)
+    invoked from within
+"::.vcop ActualActivate"
+    (in namespace inscope "::vsimwidgets::Vcop" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Vcop {::.vcop ActualActivate}"
+    ("after" script)
+  <2:/global/apps/questasim_10.3c/questasim/linux/tk8.5/bgerror.tcl:92: ::tkerror {window name "source2" already exists in parent}
+  <1:proc:24: ::tk::dialog::error::bgerror {window name "source2" already exists in parent}

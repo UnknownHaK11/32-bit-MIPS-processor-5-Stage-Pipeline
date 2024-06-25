@@ -1,0 +1,22 @@
+main: 
+
+lui $s1, 0
+
+ori $s1, $s1, 10
+
+lui $s2, 10
+
+ori $s2, $s2, 20
+
+add $s3, $s1, $s2
+
+lui $s4, 0
+
+ori $s4, $s4, 60
+
+lui $s5, 0
+
+ori $s5, $s5, 45
+
+sub $s3, $s4, $s5
+

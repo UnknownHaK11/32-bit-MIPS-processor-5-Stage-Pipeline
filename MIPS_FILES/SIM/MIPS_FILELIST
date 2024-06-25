@@ -1,0 +1,18 @@
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/InstMem_128.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IFetch.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IDecode.v"  +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IControlUnit.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IExecute.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DataMem256x32.v"  +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/ICache.v"   +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Mux4to1.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/IMux2x1.v"  +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg1.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/WriteReg.v"  +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Asyn_ResetFF.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/RA1SH_HC_SP256x128.v" +no_notifier  +nospecify  +notimingchecks 
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x128.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/DG_sp256x20.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/CODE/Top_Risc_ICache.v" +no_notifier  +nospecify  +notimingchecks
+vlog "/global/DSPGROUP/s_gopikrishna/MIPS/SIM/T_Top_Risc.v"
